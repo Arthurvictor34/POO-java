@@ -1,9 +1,9 @@
 public class Cliente extends Pessoa {
     protected double salario;
-    private String cadastro;
+    private int cadastro;
     
     // Construtor com super
-    public Cliente(String nomeCompleto, int idade, String cpf, String endereço, String celular, double salario, String cadastro){
+    public Cliente(String nomeCompleto, int idade, String cpf, String endereço, String celular, double salario, int cadastro){
         super(nomeCompleto, idade, cpf, endereço, celular);
         this.salario = salario;
         this.cadastro = cadastro;
@@ -19,11 +19,11 @@ public class Cliente extends Pessoa {
         return this.salario;
     }
 
-    public void setCadastro( String cadastro){
+    public void setCadastro( int cadastro){
         this.cadastro = cadastro;
     }
 
-    public String getCadastro(){
+    public int getCadastro(){
         return this.cadastro;
     }
 }
