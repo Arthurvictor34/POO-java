@@ -9,7 +9,7 @@ public class MainJava {
         cl1.setEndereço("Rua Centro");
         cl1.setCelular("98 94002-8922");
         cl1.setSalario(1374.54);
-        cl1.setCadastro(0000001);
+        cl1.setCadastro(1);
 
         Aluguel al1 = new Aluguel(0, 0, 0);
         al1.setcustoAluguel(150.45);
@@ -17,7 +17,7 @@ public class MainJava {
         al1.setprazoAluguel(5); //quantidade de dias
 
         Equipamento eq1 = new Equipamento(0," ", " ");
-        eq1.setRegistro(000003);
+        eq1.setRegistro(3);
         eq1.setnomeEquipamento("Machado");
         eq1.settipoEquipamento("Manual");
 

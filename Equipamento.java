@@ -1,10 +1,10 @@
 public class Equipamento {
-    protected String registro;
+    protected int registro;
     public String nomeEquipamento;
     public String tipoEquipamento;
 
     // construtor
-    public Equipamento(String registro, String nomeEquipamento, String tipoEquipamento){
+    public Equipamento(int registro, String nomeEquipamento, String tipoEquipamento){
 
         this.registro = registro;
         this.nomeEquipamento = nomeEquipamento;
@@ -13,11 +13,11 @@ public class Equipamento {
 
     // getters e setters
 
-    public void setRegistro(String registro){
+    public void setRegistro(int registro){
         this.registro = registro;
     } 
 
-    public String getRegistro(){
+    public int getRegistro(){
         return this.registro;
     }
 
