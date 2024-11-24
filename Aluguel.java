@@ -3,6 +3,10 @@ public class Aluguel implements IcalculoValores {
     protected double custoManutenção;
     protected int prazoAluguel;
 
+    public Aluguel(){
+        // Construto vazio
+    }
+
     // construtor 
     public Aluguel(double custoAluguel, double custoManutenção, int prazoAluguel){
 
@@ -11,6 +15,7 @@ public class Aluguel implements IcalculoValores {
         this.prazoAluguel = prazoAluguel;
     }
 
+    // Metodos implementados
     @Override
     public double CalculaDiaria(double diaria){
         return custoAluguel * diaria;
@@ -18,7 +23,7 @@ public class Aluguel implements IcalculoValores {
 
     @Override 
     public double CalculaHora(double hora){
-        return custoAluguel * hora;
+        return (custoAluguel / 24) * hora;
     }
 
 

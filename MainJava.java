@@ -2,6 +2,7 @@ public class MainJava {
     
     public static void main(String[] args){
         
+        // Setters do Cliente 1
         Cliente cl1 = new Cliente(" ", 0, " ", " ", " ", 0, 0);
         cl1.setnomeCompleto("Arthur Victor ");
         cl1.setIdade(18);
@@ -11,11 +12,13 @@ public class MainJava {
         cl1.setSalario(1374.54);
         cl1.setCadastro(1);
 
+        // Setters do Aluguel do primeiro Equipamento, sendo o Machado 
         Aluguel al1 = new Aluguel(0, 0, 0);
         al1.setcustoAluguel(150.45);
         al1.setcustoManutenção(120.87);
         al1.setprazoAluguel(5); //quantidade de dias
 
+        // Setters do Equipamento 1
         Equipamento eq1 = new Equipamento(0," ", " ");
         eq1.setRegistro(3);
         eq1.setnomeEquipamento("Machado");

@@ -5,7 +5,11 @@ public abstract class Pessoa {
     protected String endereço;
     private String celular;
 
-    // construtor
+    public Pessoa(){
+        // Construtor Vazio
+    }
+    
+    // Construtor
     public Pessoa(String nomeCompleto, int idade, String cpf, String endereço, String celular){
         
         this.nomeCompleto = nomeCompleto;

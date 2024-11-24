@@ -2,6 +2,11 @@ public class Cliente extends Pessoa {
     protected double salario;
     private int cadastro;
     
+
+    public Cliente(){
+        // Construtor Vazio
+    }
+
     // Construtor com super
     public Cliente(String nomeCompleto, int idade, String cpf, String endereço, String celular, double salario, int cadastro){
         super(nomeCompleto, idade, cpf, endereço, celular);

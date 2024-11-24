@@ -3,6 +3,11 @@ public class Equipamento {
     public String nomeEquipamento;
     public String tipoEquipamento;
 
+
+    public Equipamento(){
+        // Construtor vazio
+    }
+    
     // construtor
     public Equipamento(int registro, String nomeEquipamento, String tipoEquipamento){
 
